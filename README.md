@@ -1,7 +1,7 @@
 # iodine
 Iodine VPN over DNS server/client in docker
 # Docker run/compose
-## docker-ompose
+## docker-compose
 ```yaml
 services:
   iodine:
