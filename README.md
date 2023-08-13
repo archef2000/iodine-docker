@@ -48,3 +48,12 @@ docker run --name iodine --privileged \
 | FORWARD_DEST | Destination to forward to other |
 | NETWORK | Subnet of VPN tunnel default `10.0.0.1` |
 
+### Client
+| Variable | Function |
+| -------- | -------- |
+| FORCE_DNS_TUNNEL | Ski raw connection mode default `false` |
+| MAX_INTERVAL | Between requests to server |
+| LAZY_MODE | Lower response time when enabled |
+| DNS_SERVER | What DNS server to  send the requests to default `8.8.8.8` |
+| HOSTNAME_SIZE | Max hostname size |
+| DNS_TYPE | What DNS request type to use default autodetected |
