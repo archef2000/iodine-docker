@@ -1,7 +1,7 @@
 # iodine
 Iodine VPN over DNS server/client in docker
-# Docker run/compose
-## docker-compose
+## Docker run/compose
+### docker-compose
 ```yaml
 services:
   iodine:
@@ -23,7 +23,7 @@ services:
       - DOMAIN=srv.test.com
     restart: unless-stopped
 ```
-## run
+### docker-run
 ```bash
 docker run --name iodine --privileged \
   --cap-add NET_ADMIN --cap-add SYS_MODULE \
