@@ -31,3 +31,10 @@ docker run --name iodine --privileged \
   --port 53:53/udp -e PASSWORD=*** -e DOMAIN=srv.test.com --restart unless-stopped \
   archef2000/iodine:latest
 ```
+
+## Config
+### Universal
+| Variable | Function |
+| ------------- | ------------- |
+| PASSWORD | Password for authentication |
+| DOMAIN | The domain the iodine server is reachable at |
