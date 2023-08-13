@@ -35,6 +35,16 @@ docker run --name iodine --privileged \
 ## Config
 ### Universal
 | Variable | Function |
-| ------------- | ------------- |
+| -------- | -------- |
 | PASSWORD | Password for authentication |
 | DOMAIN | The domain the iodine server is reachable at |
+
+### Server
+| Variable | Function |
+| -------- | -------- |
+| MTU | The MTU of the vpn interface |
+| DEV_TUNNEL | Specify tunnel interface |
+| LOG_LEVEL | Set debug log level to 0, 1 or 2 |
+| FORWARD_DEST | Destination to forward to other |
+| NETWORK | Subnet of VPN tunnel default `10.0.0.1` |
+
